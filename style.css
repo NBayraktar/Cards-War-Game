@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Exo', sans-serif;
+  background-color: #ccccaf;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 60vh;
+  background-image: url('green-tones.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em 0;
+  box-shadow: 15px 15px 25px #222;
+}
+
+.btn {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #fff100;
+  font-weight: 700;
+  align-self: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(255, 241, 0, 0.5);
+  transition: 0.2s ease-in-out;
+}
+
+.cards-wraper {
+  align-self: center;
+}
+
+.card-slot {
+  border: 1.5px solid #000;
+  border-radius: 5px;
+  height: 120px;
+  width: calc(120px * 5 / 7);
+}
+
+.card-slot:nth-of-type(2) {
+  margin-top: 1.5em;
+}
