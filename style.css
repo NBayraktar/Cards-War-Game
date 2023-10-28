@@ -28,6 +28,11 @@ body {
   box-shadow: 15px 15px 25px #222;
 }
 
+.header-text {
+  color: whitesmoke;
+  font-weight: 400;
+}
+
 .btn {
   font-family: inherit;
   width: 65px;
