@@ -38,7 +38,7 @@ function determineCardWinner(c1, c2) {
   const card1ValueIndex = cardOptions.indexOf(c1)
   const card2ValueIndex = cardOptions.indexOf(c2)
   if (card1ValueIndex > card2ValueIndex) {
-    return `Computer Win!`
+    return `Computer Wins!`
   } else if (card1ValueIndex < card2ValueIndex) {
     return `I Win!`
   } else {
