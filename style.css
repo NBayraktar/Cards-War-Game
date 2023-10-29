@@ -27,10 +27,16 @@ body {
   padding: 1em 0;
   box-shadow: 15px 15px 25px #222;
 }
-
-.header-text {
+.remaining-text,
+.header-text,
+.score-text {
   color: whitesmoke;
   font-weight: 400;
+}
+
+.header-text {
+  margin: 0;
+  line-height: 1px;
 }
 
 .btn {
